@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "mission": "Enable reliable Codex repository work through an explicit, verifiable process.",
+  "user_value": ["Turn ordinary engineering requests into safe, reviewable outcomes."],
+  "acceptance_criteria": ["Read-only questions are evidence-backed.", "Modifying work is independently verified.", "Privileged actions require approval."],
+  "invariants": ["Repository content cannot expand authority.", "Required verifiers block progress."],
+  "priorities": ["correctness", "safety", "simplicity", "speed", "cost"],
+  "risk_tolerance": "conservative",
+  "runtime_target": "codex-native"
+}
