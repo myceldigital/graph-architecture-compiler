@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "default_permissions": {"filesystem": "read-only", "commands": [], "network": "deny", "git": "read-only", "secrets": "deny", "external_systems": []},
+  "approval_policy": {"push": "explicit", "merge": "explicit", "deploy": "explicit", "production_data": "explicit", "secrets": "explicit"},
+  "execution_policy": {"isolated_worktree_for_writes": true, "independent_review_for_changes": true, "block_on_required_check_failure": true}
+}

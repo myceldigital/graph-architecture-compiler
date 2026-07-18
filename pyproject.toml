@@ -1,0 +1,9 @@
+[project]
+name = "graph-architecture-compiler"
+version = "0.1.0"
+description = "Compile repositories into evidence-backed Codex execution graphs"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.ruff]
+line-length = 100
